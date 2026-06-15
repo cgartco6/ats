@@ -28,5 +28,15 @@
         {"path": "compliance/poopia_gdpr.py", "purpose": "Strict validation layer ensuring instant data sanitization under South Africa's POPIA and global GDPR rules."}
       ]
     }
+    {
+  "module_name": "05_ats_scoring_engine",
+  "files": [
+    {
+      "path": "services/ats_scorer.py", 
+      "purpose": "Calculates semantic matching scores, keyword density, parsing friction, and formatting compliance against target job descriptions."
+    }
+  ]
+}
+
   ]
 }
