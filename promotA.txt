@@ -1,0 +1,19 @@
+[Insert Strict System-Level Prompt]
+
+Generate the full, production-grade source code for `services/ats_scorer.py`.
+This module provides deep programmatic analysis of a parsed CV against a target job description string.
+
+Requirements:
+1. SEMANTIC MATCHING MATRIX: Implement a modern token-matching system (using clean TF-IDF tokenization or similar native math structures) to calculate an overall compatibility percentage score (0-100%).
+2. KEYWORD DENSITY ANALYZER: Identify critical industry keywords present in the job description that are missing from the user's text, outputting them in a structured array.
+3. PARSING FRICTION DETECTOR: Implement pattern checks to flag common ATS parsing failures:
+   - Use of multi-column layouts or complex tables.
+   - Text buried inside non-standard vector shapes or images.
+   - Non-standard section headers (e.g., using "Where I've Been" instead of "Work Experience").
+4. RAW METRIC PAYLOAD: Return a clean, comprehensive JSON payload containing:
+   - `overall_ats_score` (integer)
+   - `critical_missing_keywords` (list of strings)
+   - `formatting_warnings` (list of strings with file location hints)
+   - `impact_verb_density_score` (float)
+
+Provide the entire implementation with no truncated sections, no placeholders, and full mathematical scoring logic.
