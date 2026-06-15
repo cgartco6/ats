@@ -1,0 +1,4 @@
+5. ATS SCORE VISUALIZATION LAYER:
+   - Create an interactive, high-impact scoring circle component that dynamically animates from 0% to the calculated score.
+   - Group the results into clear visual tabs: "Missing Keywords" (red/yellow pill badges), "Formatting Friction Points" (actionable warnings), and "ATS Compliance Score."
+   - Include a prominent, secure checkout button directly underneath the score display: "Fix Instantly and Download Optimized Pack for R99 / $5.99."
